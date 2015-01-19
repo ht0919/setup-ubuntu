@@ -49,7 +49,7 @@ ndenvを導入し、Node.js(v0.11.4)を追加します。また、npmでCoffeeSc
 
 ## すべて導入
 
-    上記の環境をすべて導入します。
+上記の環境をすべて導入します。
 
     $ wget https://raw.githubusercontent.com/ht0919/setup-ubuntu/master/setup-all.sh
     $ source setup-all.sh
