@@ -13,5 +13,3 @@ wget https://raw.githubusercontent.com/ht0919/setup-ubuntu/master/setup-python.s
 source setup-python.sh
 wget https://raw.githubusercontent.com/ht0919/setup-ubuntu/master/setup-node.sh
 source setup-node.sh
-wget https://raw.githubusercontent.com/ht0919/setup-ubuntu/master/setup-all.sh
-source setup-all.sh
