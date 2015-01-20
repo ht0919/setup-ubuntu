@@ -1,6 +1,6 @@
 git clone https://github.com/riywo/ndenv ~/.ndenv
 git clone https://github.com/riywo/node-build.git ~/.ndenv/plugins/node-build
-echo 'export PATH=$HOME/.ndenv/bin:$PATH' >> .bash_profile
+echo 'export PATH="$HOME/.ndenv/bin:$PATH"' >> .bash_profile
 echo 'eval "$(ndenv init -)"' >> .bash_profile
 source .bash_profile
 ndenv -v
