@@ -2,12 +2,6 @@
 ## 概要
 Ubuntu Server 14.04 LTS に、LAMP環境やWebプログラミング環境を自動インストールするためのシェルスクリプト集です。各言語のバージョンは、XXenvで切り替えることができます。最初に準備作業を行ってから、必要な環境を導入してください。
 
-## 準備作業
-#### リポジトリとパッケージの更新
-    $ sudo apt-get update
-    $ sudo apt-get -y upgrade
-#### gitの導入
-    $ sudo apt-get install -y git
 #### ビルドに必要なパッケージの導入
     $ wget https://raw.githubusercontent.com/ht0919/setup-ubuntu/master/setup-first.sh
     $ source setup-first.sh

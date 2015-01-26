@@ -1,6 +1,3 @@
-sudo apt-get update
-sudo apt-get -y upgrade
-sudo apt-get install -y git
 wget https://raw.githubusercontent.com/ht0919/setup-ubuntu/master/setup-first.sh
 source setup-first.sh
 wget https://raw.githubusercontent.com/ht0919/setup-ubuntu/master/setup-lamp.sh
