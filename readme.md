@@ -1,8 +1,13 @@
 # UbuntuにWebプログラミング環境を自動インストールするスクリプト集
-## 概要
-Ubuntu Server 14.04 LTS に、LAMP環境やWebプログラミング環境を自動インストールするためのシェルスクリプト集です。各言語のバージョンは、XXenvで切り替えることができます。最初に準備作業を行ってから、必要な環境を導入してください。
 
-#### ビルドに必要なパッケージの導入
+## 概要
+
+Ubuntu Server 14.04 LTS に、LAMP環境やWebプログラミング環境を自動インストールするためのシェルスクリプト集です。各言語のバージョンは、XXenvで切り替えることができます。また、言語環境を日本語に設定し、日本語入力が可能なEmacsもインストールします。
+
+## ビルドに必要なパッケージの導入
+
+各言語のソースをビルドするために必要なパッケージを導入します。
+
     $ wget https://raw.githubusercontent.com/ht0919/setup-ubuntu/master/setup-first.sh
     $ source setup-first.sh
 
@@ -40,6 +45,20 @@ ndenvを導入し、Node.js(v0.11.4)を追加します。また、npmでCoffeeSc
 
     $ wget https://raw.githubusercontent.com/ht0919/setup-ubuntu/master/setup-node.sh
     $ source setup-node.sh
+
+## 日本語環境の導入
+
+日本語の言語パッケージを導入し、環境変数を日本語に設定します。
+
+    $ wget https://raw.githubusercontent.com/ht0919/setup-ubuntu/master/setup-japanese.sh
+    $ source setup-japanese.sh
+
+## Emacs24の導入
+
+Emacs24のコンソール版とGoogle日本語入力を導入します。
+
+    $ wget https://raw.githubusercontent.com/ht0919/setup-ubuntu/master/setup-emacs.sh
+    $ source setup-emacs.sh
 
 ## すべて導入
 
