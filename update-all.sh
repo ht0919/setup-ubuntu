@@ -17,4 +17,3 @@ git pull
 cd ~/.ndenv/plugins/node-build
 git pull
 cd
-gem update --system
