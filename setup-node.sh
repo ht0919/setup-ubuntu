@@ -4,9 +4,9 @@ echo 'export PATH="$HOME/.ndenv/bin:$PATH"' >> .bash_profile
 echo 'eval "$(ndenv init -)"' >> .bash_profile
 source .bash_profile
 ndenv -v
-ndenv install v0.11.14
+ndenv install v0.12.9
 ndenv rehash
-ndenv global v0.11.14
+ndenv global v0.12.9
 ndenv versions
 node -v
 npm install -g coffee-script

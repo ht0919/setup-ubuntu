@@ -20,28 +20,28 @@ taskselコマンドで、Apache2、php、MySQLを導入します。途中、MySQ
 
 ## Ruby on Rails環境の導入
 
-rbenvを導入し、Ruby(2.2.0)を追加します。また、gemでRails環境を導入します。
+rbenvを導入し、Ruby(2.3.0)を追加します。また、gemでRails環境を導入します。
 
     $ wget https://raw.githubusercontent.com/ht0919/setup-ubuntu/master/setup-ruby.sh
     $ source setup-ruby.sh
 
 ## Perl環境の導入
 
-plenvを導入し、Perl(5.20.1)を追加します。また、cpanmも導入します。
+plenvを導入し、Perl(5.23.6)を追加します。また、cpanmも導入します。
 
     $ wget https://raw.githubusercontent.com/ht0919/setup-ubuntu/master/setup-perl.sh
     $ source setup-perl.sh
 
 ## Python環境の導入
 
-pyenvを導入し、Python(2.7.9)を追加します。
+pyenvを導入し、Python(3.5.1)を追加します。
 
     $ wget https://raw.githubusercontent.com/ht0919/setup-ubuntu/master/setup-python.sh
     $ source setup-python.sh
 
 ## Node.js環境の導入
 
-ndenvを導入し、Node.js(v0.11.4)を追加します。また、npmでCoffeeScriptも導入します。
+ndenvを導入し、Node.js(v0.12.9)を追加します。また、npmでCoffeeScriptも導入します。
 
     $ wget https://raw.githubusercontent.com/ht0919/setup-ubuntu/master/setup-node.sh
     $ source setup-node.sh

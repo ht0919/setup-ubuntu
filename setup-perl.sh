@@ -4,9 +4,9 @@ echo 'export PATH="$HOME/.plenv/bin:$PATH"' >> .bash_profile
 echo 'eval "$(plenv init -)"' >> .bash_profile
 source .bash_profile
 plenv -v
-plenv install 5.20.1 -Dusethreads
+plenv install 5.23.6 -Dusethreads
 plenv rehash
-plenv global 5.20.1
+plenv global 5.23.6
 perl -v
 plenv install-cpanm
 cpanm -V
