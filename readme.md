@@ -20,7 +20,7 @@ taskselコマンドで、Apache2、php、MySQLを導入します。途中、MySQ
 
 ## Ruby on Rails環境の導入
 
-rbenvを導入し、Ruby(2.2.4)を追加します。また、gemでRails環境を導入します。
+rbenvを導入し、Ruby(2.3.0)を追加します。また、gemでRails環境を導入します。
 
     $ wget https://raw.githubusercontent.com/ht0919/setup-ubuntu/master/setup-ruby.sh
     $ source setup-ruby.sh
