@@ -73,3 +73,10 @@ Swift-2.2を導入します。
 
         $ wget https://raw.githubusercontent.com/ht0919/setup-ubuntu/master/setup-swift.sh
         $ source setup-swift.sh
+
+## Objective-Cの導入
+
+Objective-C 3.4を導入します。
+
+        $ wget https://raw.githubusercontent.com/ht0919/setup-ubuntu/master/setup-clang.sh
+        $ source setup-clang.sh
