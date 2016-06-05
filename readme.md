@@ -67,9 +67,9 @@ Emacs24のコンソール版とGoogle日本語入力を導入します。
     $ wget https://raw.githubusercontent.com/ht0919/setup-ubuntu/master/setup-all.sh
     $ source setup-all.sh
 
-## Swift-2.2の導入
+## Swift-2.2.1の導入
 
-Swift-2.2を導入します。
+Swift-2.2.1を導入します。
 
         $ wget https://raw.githubusercontent.com/ht0919/setup-ubuntu/master/setup-swift.sh
         $ source setup-swift.sh
